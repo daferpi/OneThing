@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DTWelcomeViewController.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openReactNativeAppAction:(UIButton *)sender {
+    
+    DTWelcomeViewController *vc = [[DTWelcomeViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end

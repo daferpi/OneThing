@@ -1,0 +1,89 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoingThings (0.0.1):
+    - DoubleConversion (= 1.1.5)
+    - Folly (= 2016.10.31.00)
+    - glog (= 0.3.4)
+    - React/Core (= 0.56.0)
+    - React/CxxBridge (= 0.56.0)
+    - React/RCTAnimation (= 0.56.0)
+    - React/RCTImage (= 0.56.0)
+    - React/RCTLinkingIOS (= 0.56.0)
+    - React/RCTNetwork (= 0.56.0)
+    - React/RCTText (= 0.56.0)
+    - yoga (= 0.56.0.React)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - React (0.56.0):
+    - React/Core (= 0.56.0)
+  - React/Core (0.56.0):
+    - yoga (= 0.56.0.React)
+  - React/CxxBridge (0.56.0):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.56.0):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/jschelpers (0.56.0):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.56.0)
+  - React/PrivateDatabase (0.56.0)
+  - React/RCTAnimation (0.56.0):
+    - React/Core
+  - React/RCTImage (0.56.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.56.0):
+    - React/Core
+  - React/RCTNetwork (0.56.0):
+    - React/Core
+  - React/RCTText (0.56.0):
+    - React/Core
+  - yoga (0.56.0.React)
+
+DEPENDENCIES:
+  - DoingThings (from `../DoingThings`)
+  - DoubleConversion (from `Pods/Local Podspecs/DoubleConversion.podspec.json`)
+  - Folly (from `Pods/Local Podspecs/Folly.podspec.json`)
+  - glog (from `Pods/Local Podspecs/glog.podspec.json`)
+  - React (from `Pods/Local Podspecs/React.podspec.json`)
+  - yoga (from `Pods/Local Podspecs/yoga.podspec.json`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+
+EXTERNAL SOURCES:
+  DoingThings:
+    :path: "../DoingThings"
+  DoubleConversion:
+    :podspec: Pods/Local Podspecs/DoubleConversion.podspec.json
+  Folly:
+    :podspec: Pods/Local Podspecs/Folly.podspec.json
+  glog:
+    :podspec: Pods/Local Podspecs/glog.podspec.json
+  React:
+    :podspec: Pods/Local Podspecs/React.podspec.json
+  yoga:
+    :podspec: Pods/Local Podspecs/yoga.podspec.json
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoingThings: 0d0efe42749068cce1e9860dbe608ad78493caa5
+  DoubleConversion: a9706f16e388b53ff12cca34473428ee29746a26
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: b3b0330915eccea41c5cc9731a77cf564a9be5ea
+  React: bdb39c05e2eed10a43056cff89a68bc9ebe7f232
+  yoga: 2f78a52dacb94ea3671108d8c219c6f93cb536b7
+
+PODFILE CHECKSUM: 5577b0a6e6acb0fcd2db0b2ea04640ab919dcc0f
+
+COCOAPODS: 1.5.3

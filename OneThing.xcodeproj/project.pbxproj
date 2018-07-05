@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42098E059676C169DFDA4809 /* libPods-OneThing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD4BCF41BA1734288DF04A4 /* libPods-OneThing.a */; };
 		FFB7A56620EE9CB200934EFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7A56520EE9CB200934EFF /* AppDelegate.m */; };
 		FFB7A56920EE9CB200934EFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7A56820EE9CB200934EFF /* ViewController.m */; };
 		FFB7A56C20EE9CB200934EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB7A56A20EE9CB200934EFF /* Main.storyboard */; };
 		FFB7A56E20EE9CB400934EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB7A56D20EE9CB400934EFF /* Assets.xcassets */; };
 		FFB7A57120EE9CB400934EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB7A56F20EE9CB400934EFF /* LaunchScreen.storyboard */; };
 		FFB7A57420EE9CB400934EFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7A57320EE9CB400934EFF /* main.m */; };
+		FFB7A57D20EEA40000934EFF /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB7A57C20EEA40000934EFF /* libDoubleConversion.a */; };
+		FFB7A57F20EEA41000934EFF /* libFolly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB7A57E20EEA41000934EFF /* libFolly.a */; };
+		FFB7A58320EEA41000934EFF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB7A58220EEA41000934EFF /* libReact.a */; };
+		FFB7A58520EEA48500934EFF /* libDoingThings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB7A58420EEA48500934EFF /* libDoingThings.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D6F979C6627D301B5F995BB /* Pods-OneThing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneThing.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneThing/Pods-OneThing.release.xcconfig"; sourceTree = "<group>"; };
+		48CA64B603ECC5806633EB92 /* Pods-OneThing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneThing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneThing/Pods-OneThing.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD4BCF41BA1734288DF04A4 /* libPods-OneThing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneThing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB7A56120EE9CB200934EFF /* OneThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB7A56420EE9CB200934EFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFB7A56520EE9CB200934EFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,12 @@
 		FFB7A57020EE9CB400934EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFB7A57220EE9CB400934EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB7A57320EE9CB400934EFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB7A57A20EEA40000934EFF /* libDoingThings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoingThings.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB7A57C20EEA40000934EFF /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB7A57E20EEA41000934EFF /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB7A58020EEA41000934EFF /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB7A58220EEA41000934EFF /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB7A58420EEA48500934EFF /* libDoingThings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoingThings.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB7A58520EEA48500934EFF /* libDoingThings.a in Frameworks */,
+				FFB7A57F20EEA41000934EFF /* libFolly.a in Frameworks */,
+				FFB7A58320EEA41000934EFF /* libReact.a in Frameworks */,
+				FFB7A57D20EEA40000934EFF /* libDoubleConversion.a in Frameworks */,
+				42098E059676C169DFDA4809 /* libPods-OneThing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B840FC690ED26EBBA6F0B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48CA64B603ECC5806633EB92 /* Pods-OneThing.debug.xcconfig */,
+				1D6F979C6627D301B5F995BB /* Pods-OneThing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA0C714DF53357C69BEFFC93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB7A58420EEA48500934EFF /* libDoingThings.a */,
+				FFB7A57E20EEA41000934EFF /* libFolly.a */,
+				FFB7A58020EEA41000934EFF /* libglog.a */,
+				FFB7A58220EEA41000934EFF /* libReact.a */,
+				FFB7A57A20EEA40000934EFF /* libDoingThings.a */,
+				FFB7A57C20EEA40000934EFF /* libDoubleConversion.a */,
+				ADD4BCF41BA1734288DF04A4 /* libPods-OneThing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFB7A55820EE9CB200934EFF = {
 			isa = PBXGroup;
 			children = (
 				FFB7A56320EE9CB200934EFF /* OneThing */,
 				FFB7A56220EE9CB200934EFF /* Products */,
+				12B840FC690ED26EBBA6F0B1 /* Pods */,
+				DA0C714DF53357C69BEFFC93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFB7A57720EE9CB400934EFF /* Build configuration list for PBXNativeTarget "OneThing" */;
 			buildPhases = (
+				4E186862325404343F0DECC3 /* [CP] Check Pods Manifest.lock */,
 				FFB7A55D20EE9CB200934EFF /* Sources */,
 				FFB7A55E20EE9CB200934EFF /* Frameworks */,
 				FFB7A55F20EE9CB200934EFF /* Resources */,
+				85E03A6D1ADB426851B56C9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +181,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E186862325404343F0DECC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneThing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E03A6D1ADB426851B56C9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OneThing/Pods-OneThing-resources.sh",
+				"${PODS_ROOT}/../../DoingThings/Pod/Assets/DoingThings.js",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DoingThings.js",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneThing/Pods-OneThing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFB7A55D20EE9CB200934EFF /* Sources */ = {
@@ -281,6 +366,7 @@
 		};
 		FFB7A57820EE9CB400934EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CA64B603ECC5806633EB92 /* Pods-OneThing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +384,7 @@
 		};
 		FFB7A57920EE9CB400934EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6F979C6627D301B5F995BB /* Pods-OneThing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
